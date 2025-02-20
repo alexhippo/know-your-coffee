@@ -1,0 +1,40 @@
+.canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.cup {
+  width: 120px;
+  height: 110px;
+  border: 10px solid #030303;
+  border-radius: 20px 20px 60px 60px;
+}
+
+.coffee {
+  position: absolute;
+  transform: translate(5px, 10px);
+  width: 110px;
+  height: 90px;
+  border-radius: 10px 10px 40px 40px;
+}
+
+.longBlack {
+  background: linear-gradient(180deg, #6F4E37 35%, #00FFFF 30%);
+}
+
+.flatWhite {
+  background: linear-gradient(180deg, #F0F0F0 60%, #6F4E37 5%);
+}
+
+.cup:before {
+  content: " ";
+  position: absolute;
+  transform: translate(60px, 20px);
+  height: 40px;
+  width: 40px;
+  border: 10px solid #030303;
+  border-left: none;
+  border-radius: 0 30px 80px 0;
+}
