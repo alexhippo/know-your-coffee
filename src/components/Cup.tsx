@@ -1,14 +1,14 @@
-import classes from './Cup.module.css'
+import classes from "./Cup.module.css";
 
 type CupProps = {
   coffee: string;
-}
+};
 
 const Cup: React.FC<CupProps> = ({ coffee }) => {
-  let coffeeStyles ='';
-  if (coffee === 'long black') {
+  let coffeeStyles = "";
+  if (coffee === "long black") {
     coffeeStyles = classes.longBlack;
-  } else if (coffee === 'flat white') {
+  } else if (coffee === "flat white") {
     coffeeStyles = classes.flatWhite;
   }
 
@@ -18,7 +18,7 @@ const Cup: React.FC<CupProps> = ({ coffee }) => {
         <div className={`${classes.coffee} ${coffeeStyles}`}></div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Cup
+export default Cup;

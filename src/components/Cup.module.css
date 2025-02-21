@@ -5,10 +5,20 @@
   height: 30vh;
 }
 
+.canvas::before {
+  
+}
+
+@media (max-width: 768px) {
+  .canvas {
+    height: 40vh;
+  }
+}
+
 .cup {
   width: 120px;
   height: 110px;
-  border: 10px solid #030303;
+  border: 10px solid #ffffff;
   border-radius: 20px 20px 60px 60px;
 }
 
@@ -21,20 +31,20 @@
 }
 
 .longBlack {
-  background: linear-gradient(180deg, #6F4E37 35%, #00FFFF 30%);
+  background: linear-gradient(180deg, #6f4e37 35%, #00ffff 30%);
 }
 
 .flatWhite {
-  background: linear-gradient(180deg, #F0F0F0 60%, #6F4E37 5%);
+  background: linear-gradient(180deg, #f0f0f0 60%, #6f4e37 5%);
 }
 
 .cup:before {
-  content: " ";
+  content: "";
   position: absolute;
   transform: translate(60px, 20px);
   height: 40px;
   width: 40px;
-  border: 10px solid #030303;
+  border: 10px solid #ffffff;
   border-left: none;
   border-radius: 0 30px 80px 0;
 }
