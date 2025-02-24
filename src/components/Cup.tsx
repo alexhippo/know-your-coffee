@@ -6,10 +6,21 @@ type CupProps = {
 
 const Cup: React.FC<CupProps> = ({ coffee }) => {
   let coffeeStyles = "";
-  if (coffee === "long black") {
-    coffeeStyles = classes.longBlack;
-  } else if (coffee === "flat white") {
-    coffeeStyles = classes.flatWhite;
+  switch (coffee) {
+    case "espresso":
+      coffeeStyles = classes.espresso;
+      break;
+    case "long black":
+      coffeeStyles = classes.longBlack;
+      break;
+    case "flat white":
+      coffeeStyles = classes.flatWhite;
+      break;
+    case "americano":
+      coffeeStyles = classes.americano;
+      break;
+    default:
+      coffeeStyles = "";
   }
 
   return (

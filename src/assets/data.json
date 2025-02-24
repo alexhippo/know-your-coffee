@@ -1,8 +1,14 @@
 {
+  "espresso": {
+    "recipe": "1 shot of concentrated coffee"
+  },
   "long black": {
     "recipe": "3/4 cup of hot water, 2 shots of espresso"
-  }, 
+  },
   "flat white": {
     "recipe": "1 shot of espresso, 1/2 cup of steamed milk"
+  },
+  "americano": {
+    "recipe": "1 shot of espresso, 1 cup of hot water"
   }
 }
