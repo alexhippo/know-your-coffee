@@ -2,7 +2,7 @@
 
 A simple React + Typescript app illustrating different coffee orders, inspired by many coffee infographics.
 
-I created this app to practice my React, Typescript, CSS skills and Accessibility concepts.
+I created this app to practice my React, Typescript, CSS skills and applying Accessibility concepts.
 
 # Credits
 
